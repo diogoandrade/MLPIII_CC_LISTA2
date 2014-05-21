@@ -26,11 +26,11 @@ public class Principal {
 		
 
 		
-		System.out.println("Interaçao i1:"+inventario.incluir(um));
-		System.out.println("Interaçao i2:"+inventario.incluir(dois));
-		System.out.println("Interaçao i3:"+inventario.incluir(tres));
-		System.out.println("Interaçao i4:"+inventario.incluir(quatro));
-		System.out.println("Interaçao i1:"+inventario.incluir(cinco));
+		System.out.println("Interaçao um:"+inventario.incluir(um));
+		System.out.println("Interaçao dois:"+inventario.incluir(dois));
+		System.out.println("Interaçao tres:"+inventario.incluir(tres));
+		System.out.println("Interaçao quatro:"+inventario.incluir(quatro));
+		System.out.println("Interaçao cinco:"+inventario.incluir(cinco));
 		
 		if(inventario.vazia()){
 			
