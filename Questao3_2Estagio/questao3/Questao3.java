@@ -1,4 +1,4 @@
-package br.unipe.cc.mlp;
+package questao3;
 
 public class Questao3 {
 	/*
