@@ -4,8 +4,8 @@ import br.unipe.cc.mlp.modelo.Item;
 
 public interface Inventario {
 	boolean incluir(Item i);
-	boolean estaVazia();
+	boolean vazia();
 	boolean pertence(Item i);
-	void limpa();
+	void clear();
 	
 }

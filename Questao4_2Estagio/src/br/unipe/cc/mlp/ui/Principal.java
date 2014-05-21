@@ -15,7 +15,7 @@ public class Principal {
 		
 		Inventario inventario = new ModulosInventario();
 		
-		if(inventario.estaVazia()){
+		if(inventario.vazia()){
 			
 			System.out.println("A coleção está vazia!");
 		}
@@ -32,7 +32,7 @@ public class Principal {
 		System.out.println("Interaçao i4:"+inventario.incluir(quatro));
 		System.out.println("Interaçao i1:"+inventario.incluir(cinco));
 		
-		if(inventario.estaVazia()){
+		if(inventario.vazia()){
 			
 			System.out.println("A coleção está vazia!");
 		}

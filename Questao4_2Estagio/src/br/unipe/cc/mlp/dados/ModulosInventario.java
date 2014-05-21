@@ -19,7 +19,7 @@ public class ModulosInventario implements Inventario{
 	}
 
 	@Override
-	public boolean estaVazia() {
+	public boolean vazia() {
 		return itens.isEmpty();
 	}
 
@@ -29,7 +29,7 @@ public class ModulosInventario implements Inventario{
 	}
 
 	//@Override
-	public void limpa() {
+	public void clear() {
 		itens.clear();
 	}
 
